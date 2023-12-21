@@ -21,6 +21,15 @@ body {
     height: 65%;
     
   }
+  /* CSS code to change the color of the image using HSL values */
+.my-image {
+  filter: hue-rotate(277deg) saturate(64%) brightness(61%);
+}
+
+  .img{
+background-color:  hsl(244, 38%, 16%);
+filter: hue-rotate(277deg) saturate(64%) brightness(61%);
+  }
   .text1{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
