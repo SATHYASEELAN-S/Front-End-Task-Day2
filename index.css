@@ -1,0 +1,54 @@
+
+/* Apply Inter font to the body */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+   
+}
+
+/* Apply Lexend Deca font to the 'text' class */
+.text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; /* Use the desired font weight */
+}
+
+  .form-container {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 1);
+    width: 90%;
+    height: 65%;
+    
+  }
+  .text1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+  .te{
+    color:hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+  }
+.img{
+  border-radius:0 10px 10px 0;
+}
+
+.text{
+  color:   hsl(0, 0%, 100%);
+/* font-weight: ; */
+}
+
+@media (max-width:600px) {
+  .form-container {
+    background-color: hsl(244, 38%, 16%);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 1);
+    width: 90%;
+    height: auto;
+    
+  }
+}
